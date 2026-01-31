@@ -1,1 +1,2 @@
+#Samba-LM
 This study evaluates the training efficiency and scaling behavior of the Mamba Selective State Space Model (SSM). We implement a character-level language model trained on the TinyShakespeare dataset using JAX and the experimental Metal backend on an Apple M2 Pro. Our findings demonstrate near-perfect linear scaling (50.5%) when doubling model depth and identify critical hardware-constrained hyperparameter boundaries to prevent GPU buffer errors.
